@@ -87,7 +87,7 @@ class TM1814PixelBackground(  # pylint: disable=too-few-public-methods
         *,
         brightness: float = 1.0,
         pixel_order: str = "WRGB",
-        current_control: float | tuple[float, float, float, float] = 38.0,
+        current_control: float | tuple[float, float, float, float] = TM1814_MIN_CURRENT,
         inverted: bool = False,
     ):
         if len(pixel_order) != 4:
