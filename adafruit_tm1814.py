@@ -26,6 +26,9 @@ import adafruit_pixelbuf
 from adafruit_pioasm import Program
 from rp2pio import StateMachine
 
+__version__ = "0.0.0+auto.0"
+__repo__ = "https://github.com/adafruit/Adafruit_CircuitPython_TM1814.git"
+
 # Pixel stream is very similar to NeoPixel WS2812B, but inverted.
 #
 # Pixel time is 1.25us (800kHz)
